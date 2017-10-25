@@ -1,0 +1,88 @@
+
+/*<!--
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+ -->*/
+
+body {
+  background-color: #E3E9ED;
+  color: #0F0F0F;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3066BE;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  color: #0F0F0F;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #706F6F;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3066BE;
+}
+
+
+.card {
+  background: #EDEBE3;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.container .img-circle {
+  border-radius: 50%;
+}
+
+#link-button {
+  width: 125px;
+  color: #706F6F;
+  background-color: #BAD7F2;
+  border-radius: 6px;
+  padding: 10px;
+  /*align-content: center;*/
+  box-shadow: 0px 1px 1px 1px;
+  margin: 0 auto;
+  /*width: 125;*/
+}
+
+.container .card .list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container .card .list-inline ul {
+  padding-left: 0px;
+}
+
+
