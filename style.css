@@ -2,10 +2,9 @@
 /*<!--
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
- -->*/
+-->*/
 
 body {
-  background-color: rgba(1,1,1,0.9);
   color: rgba(253, 234, 91, 0.8);
   font-size: 17px;
   font-family: 'Roboto', sans-serif;
@@ -54,10 +53,10 @@ a:hover {
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px;
   text-align: center;
-    background:
-      linear-gradient(217deg, rgba(217,100,236,0.8), rgba(255,0,0,0) 70.71%),
-      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-      linear-gradient(336deg, rgba(1,1,1,0.8), rgba(0,0,255,0) 70.71%);
+  background:
+  linear-gradient(217deg, rgba(217,100,236,0.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(1,1,1,0.8), rgba(0,0,255,0) 70.71%);
 }
 
 .table-card {
@@ -100,4 +99,25 @@ a:hover {
   padding-left: 0px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(1,1,1,0.8);
+  font-size: 40px;
+}
 
+#page-content {
+  margin-left: 150px;
+  background-color: rgba(1,1,1,0.9);
+}
+
+#sidebar-links {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}

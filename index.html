@@ -10,125 +10,148 @@
   <link rel='stylesheet' href='style.css'>
 </head>
 <body>
+  <div id="sidebar">
+    <i class="fa fa-bars"></i>
 
-
-
-
-  <div class="container">
-    <div class="row">
-      <div class="card">
-        <img class="img-circle" src="./images/me.jpg"/>
-        <h1>Willem Poghisyo van Klinken</h1>
-        <h3>junior developer</h3>
-        <p>
-          What they say:<br/><em>One bad-ass motherf**ker - Samuel L Jackson</em>
-        </p>
-        <div id="link-button">
-          <a href="#">
-            <i class="fa fa-eye"></i>
-            see for yourself
+    <ul class="list-unstyled" id="sidebar-links">
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
           </a>
+        </li>
+        <li>
+          <a href="#links">
+            <i class="fa fa-link"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#hobbies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+    </ul>
+  </div>
+
+  <div id="page-content">
+    <div class="container">
+      <div class="row">
+        <div class="card" id="summary">
+          <img class="img-circle" src="./images/me.jpg"/>
+          <h1>Willem Poghisyo van Klinken</h1>
+          <h3>junior developer</h3>
+          <p>
+            What they say:<br/><em>One bad-ass motherf**ker - Samuel L Jackson</em>
+          </p>
+          <div id="link-button">
+            <a href="#">
+              <i class="fa fa-eye"></i>
+              see for yourself
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-      <div class= 'card'>
-        <div class= 'list-inline'>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class= 'card' id="links">
+            <div class= 'list-inline'>
+              <ul>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                    facebook
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-github"></i>
+                    github
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card" id="hobbies">
+        <table>
+          <thead>
+            <tr>
+              <h2>Hobbies and interests</h2>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="table-card">
+                  <img src="./images/yummy_2.jpg" alt="yummy food picture">
+                  <div class="content">
+                    <h3>Food and cooking</h3>
+                    <p>Having worked in a professional kitchen for some time, i am always interested in making and trying new foods.</p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-card">
+                  <img src="./images/travel.jpg" alt="travel picture">
+                  <div class="content">
+                    <h3>Travel</h3>
+                    <p>I have lived in many different places in the world and i am always looking to discover more.</p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-card">
+                  <img src="./images/ubuntu.jpg" alt="coding picture">
+                  <div class="content">
+                    <h3>Coding :)</h3>
+                    <p>I would not be having <strong>so much fun</strong> at Le Wagon if i did not love coding this much.</p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card" id="footer">
+        <div class="list-inline">
+          <h3>About this page</h3>
+          <p>This page has been coded during the <a href="#">FullStack program @LeWagon.</a> That was probably the best experience of my entire life.</p>
           <ul>
             <li>
-              <a href="#" target="_blank">
-                <i class="fa fa-facebook"></i>
-                facebook
-              </a>
+              <a href="#"><i class="fa fa-heart"></i></a>
             </li>
             <li>
-              <a href="#" target="_blank">
-                <i class="fa fa-linkedin"></i>
-                LinkedIn
-              </a>
+              <a href="#"><i class="fa fa-share"></i></a>
             </li>
             <li>
-              <a href="#" target="_blank">
-                <i class="fa fa-github"></i>
-                github
-              </a>
+              <a href="#"><i class="fa fa-star"></i></a>
             </li>
           </ul>
         </div>
-      </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-
-    <div class="card">
-      <table>
-        <thead>
-          <tr>
-            <h2>Hobbies and interests</h2>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <div class="table-card">
-                <img src="./images/yummy_2.jpg" alt="yummy food picture">
-                <div class="content">
-                  <h3>Food and cooking</h3>
-                  <p>Having worked in a professional kitchen for some time, i am always interested in making and trying new foods.</p>
-                </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div class="table-card">
-                <img src="./images/travel.jpg" alt="travel picture">
-                <div class="content">
-                  <h3>Travel</h3>
-                  <p>I have lived in many different places in the world and i am always looking to discover more.</p>
-                </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div class="table-card">
-                <img src="./images/ubuntu.jpg" alt="coding picture">
-                <div class="content">
-                  <h3>Coding :)</h3>
-                  <p>I would not be having <strong>so much fun</strong> at Le Wagon if i did not love coding this much.</p>
-                </div>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-  </div>
-
-  <div class="container">
-    <div class="card">
-      <div class="list-inline">
-        <h3>About this page</h3>
-        <p>This page has been coded during the <a href="#">FullStack program @LeWagon.</a> That was probably the best experience of my entire life.</p>
-        <ul>
-          <li>
-            <a href="#"><i class="fa fa-heart"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-share"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-star"></i></a>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
